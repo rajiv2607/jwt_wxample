@@ -1,0 +1,12 @@
+
+GET http://localhost:3000/auth
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmF2aSIsImlhdCI6MTU4NTM0MDQ2NX0.tmxSbPxYU2lcYV7XFSphSGs0OvHnihdpWche1F6NBWg
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username" : "Ravi"
+}
